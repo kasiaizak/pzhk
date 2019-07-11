@@ -4,22 +4,26 @@ Strona strona typu landing page dla Polskiego Związku Hodowców Koni - [widok o
 
 ## Wykorzystane technologie:
 
-HTML5 i CSS3 (flexbox)
+HTML5 i CSS3 (flexbox) z użyciem preprocesora SASS.
 
 ## Podgląd strony
 ![Screenshot](https://raw.githubusercontent.com/kasiaizak/pzhk-de/master/github/screenshot.png)
 
 ## Uruchomienie strony lokalnie z podglądem zmian na żywo (dla developerów korzystających z Node.js)
 
-Jeśli nie masz jeszcze zainstalowanego Node.js to tu znajduje się instalka i można szybko to nadrobić: [oficjalna strona Node.js](https://nodejs.org/en/). Ważne by insalację wykonywać z uprawnieniami administratora!
+Jeśli nie masz jeszcze zainstalowanego Node.js to nic straconego... :) Tu znajduje się instalka i można szybko to nadrobić: [oficjalna strona Node.js](https://nodejs.org/en/).
 
-Po sklonowaniu repozytorium na swój komputer wchodzimy do głównego katalogu projektu i wykonujemy poniższe polecenia:
+W konsoli (terminialu) uruchomionej z uprawnieniami administratora (Windows) lub z dodanym `sudo` przed komendą (Mac) wpisujemy poniższe polecenie w celu instalacji tzw. *task runnera* GULP. Polecenie wykonujemy raz na danej maszynie, czyli jeśli robiłeś/aś to już wcześniej to pomiń ten krok i poniższą komendę.
 
 `npm install -g gulp-cli`
 
-`npm install`
+## Inicjowanie projektu
 
-`gulp`
+Po sklonowaniu repozytorium na swój komputer wchodzimy do głównego katalogu projektu i wykonujemy poniższe polecenia:
+
+`npm install` - polecenie uruchamiane raz na dany projekt
+
+`gulp` - start *task runnera*
 
 ### Kończenie pracy
 
