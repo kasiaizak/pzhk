@@ -17,14 +17,16 @@ W konsoli (terminialu) uruchomionej z uprawnieniami administratora (Windows) lub
 
 `npm install -g gulp-cli`
 
-## Inicjowanie projektu
+### Inicjowanie projektu
 
 Po sklonowaniu repozytorium na swój komputer wchodzimy do głównego katalogu projektu i wykonujemy poniższe polecenia:
 
 `npm install` - polecenie uruchamiane raz na dany projekt
 
+### Podgląd na żywo ze śledzeniem zmian
+
 `gulp` - start *task runnera*
 
-### Kończenie pracy
+#### Kończenie pracy
 
 Aby przerwać pracę *gulpa* wściskamy kombinację klawiszy **CTRL** + **C**.
