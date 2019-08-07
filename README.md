@@ -1,6 +1,6 @@
 # PZHK-de
 
-Strona strona typu landing page dla Polskiego Związku Hodowców Koni - [widok on-line](https://kasiaizak.github.io/pzhk-de/)
+Strona informacyjna dla Polskiego Związku Hodowców Koni - [widok on-line](https://kasiaizak.github.io/pzhk-de/)
 
 ## Wykorzystane technologie:
 
