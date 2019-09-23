@@ -20,63 +20,54 @@ body {
 }
 
 .background {
+  @include full-box;
   position: absolute;
   background-image: url("../assets/images/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  @include full-box;
   filter: blur(5px);
 }
 
 .site {
+  @include center;
+  @include full-box;
   position: relative;
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 36px;
-  @include center;
   justify-content: space-between;
-  @include full-box;
-  &__content {
-    @include center;
-  }
-  &__footer {
-    text-align: center;
-    font-size: 0.8em;
-    @media screen and (min-width: $tablet) {
-      font-size: 1em;
-    }
-    @media screen and (min-width: $four-k) {
-      font-size: 1.5em;
-    }
-  }
-  &__header {
-    text-align: center;
-    margin-bottom: 12px;
-    @media screen and (min-width: $tablet) {
-      font-size: 2.5em;
-    }
-    @media screen and (min-width: $four-k) {
-      font-size: 4em;
-    }
-  }
+  padding: 36px;
+  &__logo { @include center; }
   &__image {
-    width: 70%;
-    justify-content: center;
-    @media screen and (min-width: $tablet) {
-      width: 60%;
-    }
+    max-width: 80%;
+    @media screen and (min-width: $mobile-l) { max-width: 60%; }
+    @media screen and (min-width: $tablet) { max-width: 50%; }
+    @media screen and (min-width: $laptop) { max-width: 30%; }
+    @media screen and (min-width: $laptop-l) { max-width: 50%; }
+    @media screen and (min-width: $four-k) { max-width: 80%; }
+  }
+  &__content { @include center; }
+  &__header {
+    margin-bottom: 12px;
+    & span { color: #addf34; }
+    @media screen and (min-width: $tablet) { font-size: 2.9rem; }
+    @media screen and (min-width: $laptop-l) { font-size: 4rem; }
+    @media screen and (min-width: $four-k) { font-size: 6rem; }
+  }
+  &__paragraph {
+    text-align: center;
+    @media screen and (min-width: $tablet) { font-size: 1.35rem; }
+    @media screen and (min-width: $laptop-l) { font-size: 2rem; }
+    @media screen and (min-width: $four-k) { font-size: 3rem; }
   }
   &__link {
     color: darkorange;
   }
-  &__paragraph {
+  &__footer {
     text-align: center;
-    @media screen and (min-width: $tablet) {
-      font-size: 1.2em;
-    }
-    @media screen and (min-width: $four-k) {
-      font-size: 2em;
-    }
+    font-size: 0.9rem;
+    @media screen and (min-width: $tablet) { font-size: 1rem; }
+    @media screen and (min-width: $laptop-l) { font-size: 1.5rem }
+    @media screen and (min-width: $four-k) { font-size: 2.5rem; }
   }
   @media screen and (min-width: $tablet) {
     padding-top: 5vh;
