@@ -1,6 +1,6 @@
 # PZHK-de
 
-Strona informacyjna dla Polskiego Związku Hodowców Koni - [widok on-line](https://kasiaizak.github.io/pzhk/)
+Szablon strony informacyjnej dla Polskiego Związku Hodowców Koni - [widok on-line](https://kasiaizak.github.io/pzhk/)
 
 ## Wykorzystane technologie:
 
