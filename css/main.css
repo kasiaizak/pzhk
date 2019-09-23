@@ -324,20 +324,17 @@ body {
   color: #fff; }
 
 .background {
+  width: 100%;
+  height: 100%;
   position: absolute;
   background-image: url("../assets/images/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 100%;
   -webkit-filter: blur(5px);
           filter: blur(5px); }
 
 .site {
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 36px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,11 +348,45 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
-  height: 100%; }
+  padding: 36px; }
+  .site__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .site__image {
+    max-width: 80%; }
+    @media screen and (min-width: 424px) {
+      .site__image {
+        max-width: 60%; } }
+    @media screen and (min-width: 767px) {
+      .site__image {
+        max-width: 50%; } }
+    @media screen and (min-width: 1023px) {
+      .site__image {
+        max-width: 30%; } }
+    @media screen and (min-width: 1439px) {
+      .site__image {
+        max-width: 50%; } }
+    @media screen and (min-width: 2559px) {
+      .site__image {
+        max-width: 80%; } }
   .site__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -370,43 +401,45 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-  .site__footer {
-    text-align: center;
-    font-size: 0.8em; }
-    @media screen and (min-width: 768px) {
-      .site__footer {
-        font-size: 1em; } }
-    @media screen and (min-width: 2560px) {
-      .site__footer {
-        font-size: 1.5em; } }
   .site__header {
-    text-align: center;
     margin-bottom: 12px; }
-    @media screen and (min-width: 768px) {
+    .site__header span {
+      color: #addf34; }
+    @media screen and (min-width: 767px) {
       .site__header {
-        font-size: 2.5em; } }
-    @media screen and (min-width: 2560px) {
+        font-size: 2.9rem; } }
+    @media screen and (min-width: 1439px) {
       .site__header {
-        font-size: 4em; } }
-  .site__image {
-    width: 70%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    @media screen and (min-width: 768px) {
-      .site__image {
-        width: 60%; } }
-  .site__link {
-    color: darkorange; }
+        font-size: 4rem; } }
+    @media screen and (min-width: 2559px) {
+      .site__header {
+        font-size: 6rem; } }
   .site__paragraph {
     text-align: center; }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 767px) {
       .site__paragraph {
-        font-size: 1.2em; } }
-    @media screen and (min-width: 2560px) {
+        font-size: 1.35rem; } }
+    @media screen and (min-width: 1439px) {
       .site__paragraph {
-        font-size: 2em; } }
-  @media screen and (min-width: 768px) {
+        font-size: 2rem; } }
+    @media screen and (min-width: 2559px) {
+      .site__paragraph {
+        font-size: 3rem; } }
+  .site__link {
+    color: darkorange; }
+  .site__footer {
+    text-align: center;
+    font-size: 0.9rem; }
+    @media screen and (min-width: 767px) {
+      .site__footer {
+        font-size: 1rem; } }
+    @media screen and (min-width: 1439px) {
+      .site__footer {
+        font-size: 1.5rem; } }
+    @media screen and (min-width: 2559px) {
+      .site__footer {
+        font-size: 2.5rem; } }
+  @media screen and (min-width: 767px) {
     .site {
       padding-top: 5vh;
       line-height: 1.5; } }
