@@ -372,6 +372,10 @@ body {
             flex-direction: column; }
   .site__image {
     max-width: 80%; }
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      .site__image {
+        /* IE10-specific styles go here */
+        height: 80%; } }
     @media screen and (min-width: 424px) {
       .site__image {
         max-width: 60%; } }
