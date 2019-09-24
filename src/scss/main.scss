@@ -39,6 +39,10 @@ body {
   &__logo { @include center; }
   &__image {
     max-width: 80%;
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      /* IE10-specific styles go here */
+      height: 80%;
+    }
     @media screen and (min-width: $mobile-l) { max-width: 60%; }
     @media screen and (min-width: $tablet) { max-width: 50%; }
     @media screen and (min-width: $laptop) { max-width: 30%; }
