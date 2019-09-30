@@ -39,7 +39,7 @@ body {
   &__logo { @include center; }
   &__image {
     max-width: 80%;
-    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    @media all and (-ms-high-contrast: active), (-ms-high-contrast: none) {
       /* IE10-specific styles go here */
       height: 80%;
     }
