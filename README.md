@@ -1,10 +1,12 @@
+![cover](https://raw.githubusercontent.com/kasiaizak/pzhk/master/github/cover.png)
+
 # PZHK
 
 Szablon strony informacyjnej dla Polskiego Związku Hodowców Koni - [widok on-line](https://kasiaizak.github.io/pzhk/)
 
-## Wykorzystane technologie:
+## Użyte technologie:
 
-HTML5 i CSS3 (flexbox) z użyciem preprocesora SASS.
+HTML5 i CSS3 (w tym Flexbox) z użyciem preprocesora Sass.
 
 ## Podgląd strony
 ![Screenshot](https://raw.githubusercontent.com/kasiaizak/pzhk-de/master/github/screenshot.png)
@@ -29,4 +31,4 @@ Po sklonowaniu repozytorium na swój komputer wchodzimy do głównego katalogu p
 
 #### Kończenie pracy
 
-Aby przerwać pracę *gulpa* wściskamy kombinację klawiszy **CTRL** + **C**.
+Aby przerwać pracę *gulp* wciskamy kombinację klawiszy **CTRL** + **C**.
