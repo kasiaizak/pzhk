@@ -1,4 +1,4 @@
-# PZHK-de
+# PZHK
 
 Szablon strony informacyjnej dla Polskiego Związku Hodowców Koni - [widok on-line](https://kasiaizak.github.io/pzhk/)
 
