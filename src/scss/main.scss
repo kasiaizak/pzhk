@@ -52,6 +52,7 @@ body {
   &__content { @include center; }
   &__header {
     margin-bottom: 12px;
+    text-align: center;
     & span { color: #addf34; }
     @media screen and (min-width: $tablet) { font-size: 2.9rem; }
     @media screen and (min-width: $laptop-l) { font-size: 4rem; }
