@@ -372,7 +372,7 @@ body {
             flex-direction: column; }
   .site__image {
     max-width: 80%; }
-    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    @media all and (-ms-high-contrast: active), (-ms-high-contrast: none) {
       .site__image {
         /* IE10-specific styles go here */
         height: 80%; } }
@@ -406,7 +406,8 @@ body {
         -ms-flex-direction: column;
             flex-direction: column; }
   .site__header {
-    margin-bottom: 12px; }
+    margin-bottom: 12px;
+    text-align: center; }
     .site__header span {
       color: #addf34; }
     @media screen and (min-width: 767px) {
