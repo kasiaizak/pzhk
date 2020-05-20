@@ -1,4 +1,4 @@
-![cover](https://raw.githubusercontent.com/kasiaizak/pzhk/master/github/screenshot.jpg)
+![cover](https://raw.githubusercontent.com/kasiaizak/pzhk/master/src/assets/images/screenshot.jpg)
 
 # PZHK
 

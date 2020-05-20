@@ -38,41 +38,35 @@ body {
   padding: 36px;
   &__logo { @include center; }
   &__image {
-    max-width: 80%;
+    justify-content: center;
+    width: 70%;
     @media all and (-ms-high-contrast: active), (-ms-high-contrast: none) {
       /* IE10-specific styles go here */
       height: 80%;
     }
-    @media screen and (min-width: $mobile-l) { max-width: 60%; }
-    @media screen and (min-width: $tablet) { max-width: 50%; }
-    @media screen and (min-width: $laptop) { max-width: 30%; }
-    @media screen and (min-width: $laptop-l) { max-width: 50%; }
-    @media screen and (min-width: $four-k) { max-width: 80%; }
+    @media screen and (min-width: $tablet) { width: 60%; }
   }
   &__content { @include center; }
   &__header {
     margin-bottom: 12px;
     text-align: center;
     & span { color: #addf34; }
-    @media screen and (min-width: $tablet) { font-size: 2.9rem; }
-    @media screen and (min-width: $laptop-l) { font-size: 4rem; }
-    @media screen and (min-width: $four-k) { font-size: 6rem; }
+    @media screen and (min-width: $tablet) { font-size: 2.5em; }
+    @media screen and (min-width: $four-k) { font-size: 4em; }
   }
   &__paragraph {
     text-align: center;
-    @media screen and (min-width: $tablet) { font-size: 1.35rem; }
-    @media screen and (min-width: $laptop-l) { font-size: 2rem; }
-    @media screen and (min-width: $four-k) { font-size: 3rem; }
+    @media screen and (min-width: $tablet) { font-size: 1.2em; }
+    @media screen and (min-width: $four-k) { font-size: 2em; }
   }
   &__link {
     color: darkorange;
   }
   &__footer {
     text-align: center;
-    font-size: 0.9rem;
-    @media screen and (min-width: $tablet) { font-size: 1rem; }
-    @media screen and (min-width: $laptop-l) { font-size: 1.5rem }
-    @media screen and (min-width: $four-k) { font-size: 2.5rem; }
+    font-size: 0.8em;
+    @media screen and (min-width: $tablet) { font-size: 1em; }
+    @media screen and (min-width: $four-k) { font-size: 1.5em; }
   }
   @media screen and (min-width: $tablet) {
     padding-top: 5vh;

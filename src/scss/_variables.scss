@@ -1,8 +1,5 @@
-$mobile-l: 424px;
-$tablet: 767px;
-$laptop: 1023px;
-$laptop-l: 1439px;
-$four-k: 2559px;
+$tablet: 768px;
+$four-k: 2560px;
 
 @mixin center {
   display: flex;
