@@ -33,7 +33,7 @@
     "gulp-babel": "^8.0.0",
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-postcss": "^8.0.0",
+    "gulp-postcss": "^10.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
@@ -48,6 +48,6 @@
   },
   "dependencies": {
     "browser-update": "^3.3.1",
-    "eslint": "^6.6.0"
+    "eslint": "^9.39.1"
   }
 }
