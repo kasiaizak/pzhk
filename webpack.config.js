@@ -1,20 +1,11 @@
-module.exports = {
+const path = require('path');
+module.exports = (_env = {}, { mode = 'production' } = {}) => ({
+  mode,
+  target: 'browserslist',
+  devtool: mode === 'development' ? 'source-map' : false,
+  entry: path.resolve(__dirname, 'src/js/main.js'),
   output: {
-    filename: 'main.js',
-  },
-  mode: 'production',
-  module: {
-    rules: [
-      {
-        test: /\.(js|jsx)$/,
-        exclude: /(node_modules)/,
-        loader: 'babel-loader',
-        query: {
-          presets: [
-            ['@babel/preset-env', { modules: false }],
-          ],
-        },
-      },
-    ],
-  },
-};
+    path: path.resolve(__dirname, 'dist/js'),
+    filename: 'main.js'
+  }
+});

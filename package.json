@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": ">=26.13.0 <27",
+    "npm": ">=12.2.1 <13"
+  },
+  "packageManager": "npm@12.2.1",
   "scripts": {
-    "predeploy": "gulp build",
+    "start": "gulp",
+    "watch": "gulp",
+    "build": "gulp build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
@@ -19,35 +28,14 @@
   },
   "homepage": "https://github.com/maciejkorsan/wtf-gulp-starter#readme",
   "devDependencies": {
-    "@babel/cli": "^7.7.0",
-    "@babel/core": "^7.7.2",
-    "@babel/polyfill": "^7.7.0",
-    "@babel/preset-env": "^7.7.1",
-    "@babel/register": "^7.7.0",
-    "autoprefixer": "^9.7.1",
-    "babel-loader": "^8.0.6",
-    "browser-sync": "^3.0.3",
-    "gh-pages": "^2.1.1",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-babel": "^8.0.0",
-    "gulp-notify": "^3.2.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2",
-    "node-sass": "^4.14.1",
-    "webpack": "^4.41.2",
-    "webpack-stream": "^5.2.1"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
-  },
-  "dependencies": {
-    "browser-update": "^3.3.1",
-    "eslint": "^6.6.0"
+    "autoprefixer": "^10.6.2",
+    "browser-sync": "^3.0.4",
+    "gh-pages": "^6.3.0",
+    "gulp": "^5.0.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^6.0.1",
+    "postcss": "^8.5.32",
+    "sass": "^1.107.1",
+    "webpack": "^5.112.2"
   }
 }
